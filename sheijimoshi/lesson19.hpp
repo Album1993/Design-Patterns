@@ -58,12 +58,14 @@ class Majordomo:public Manager {
     
     
 public:
-    Majordomo(string name):Manager(name){}
+    Majordomo(string name):Manager(name){
+        superior = NULL;
+    }
     void RequestApplication(Request * request){
         if (request->requestType == "请假" && request->number <= 5) {
             cout<<name<<request->requestContent<<request->number<<endl;
         } else {
-            if (superior != nullptr) {
+            if (superior != NULL) {
                 superior->RequestApplication(request);
             }
         }
@@ -76,7 +78,7 @@ class GeneralManager:public Manager {
 public:
     GeneralManager(string name):Manager(name){}
     void RequestApplication(Request * request){
-        
+        cout<<"NO"<<endl;
     }
 };
 

@@ -25,6 +25,7 @@
 #include"Lesson16.hpp"
 #include "lesson17.hpp"
 #include "lesson18.hpp"
+#include "lesson19.hpp"
 using namespace std;
 
 void testLesson1();
@@ -45,10 +46,11 @@ void testLesson15();
 void testLesson16();
 void testLesson17();
 void testLesson18();
+void testLesson19();
 
 
 int main() {
-    testLesson18();
+    testLesson19();
 }
 
 void testLesson1() {
@@ -280,5 +282,36 @@ void testLesson18(){
     girl->CancelOrder(bakeChickenWingCommand1);
     
     girl->Notify();
+    
+}
+
+void testLesson19(){
+    CommonManager * jinli = new CommonManager("jingli");
+    Majordomo * zongjian = new Majordomo("zongjian");
+    GeneralManager * zongjingli = new GeneralManager("zongjinli");
+    
+    jinli->SetSuperior(zongjian);
+    zongjian->SetSuperior(zongjingli);
+    
+    
+    Request * request = new Request();
+    request->requestType = "请假";
+    request->requestContent = "小菜请假";
+    request->number = 1;
+    
+    jinli->RequestApplication(request);
+    
+    Request * request2 = new Request();
+    request2->requestType = "请假";
+    request2->requestContent = "小菜请假";
+    request2->number = 4;
+    jinli->RequestApplication(request2);
+    
+    Request * request3 = new Request();
+    request3->requestType = "加薪";
+    request3->requestContent = "小菜请求加薪";
+    request3->number = 4;
+    jinli->RequestApplication(request3);
+    
     
 }
