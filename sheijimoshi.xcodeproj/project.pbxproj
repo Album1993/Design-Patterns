@@ -26,6 +26,7 @@
 		FCA98DDF1E6EC74A00DFB449 /* lesson7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA98DDD1E6EC74A00DFB449 /* lesson7.cpp */; };
 		FCA98DE21E7106D200DFB449 /* Lesson8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA98DE01E7106D200DFB449 /* Lesson8.cpp */; };
 		FCA98DE51E710EEC00DFB449 /* lesson9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA98DE31E710EEC00DFB449 /* lesson9.cpp */; };
+		FCB5A5271E966486001B4CA9 /* lesson19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A5251E966486001B4CA9 /* lesson19.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,8 @@
 		FCA98DE11E7106D200DFB449 /* Lesson8.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lesson8.hpp; sourceTree = "<group>"; };
 		FCA98DE31E710EEC00DFB449 /* lesson9.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lesson9.cpp; sourceTree = "<group>"; };
 		FCA98DE41E710EEC00DFB449 /* lesson9.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lesson9.hpp; sourceTree = "<group>"; };
+		FCB5A5251E966486001B4CA9 /* lesson19.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lesson19.cpp; sourceTree = "<group>"; };
+		FCB5A5261E966486001B4CA9 /* lesson19.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lesson19.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				69E28CFA1E93C74A00CE47A5 /* lesson17.hpp */,
 				69E28CFC1E95FE9F00CE47A5 /* lesson18.cpp */,
 				69E28CFD1E95FE9F00CE47A5 /* lesson18.hpp */,
+				FCB5A5251E966486001B4CA9 /* lesson19.cpp */,
+				FCB5A5261E966486001B4CA9 /* lesson19.hpp */,
 			);
 			path = sheijimoshi;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				FCA98DB01E695B1A00DFB449 /* lesson5.cpp in Sources */,
 				69E28CFB1E93C74A00CE47A5 /* lesson17.cpp in Sources */,
 				FC6A50531E67BC6B00F7CC0F /* main.cpp in Sources */,
+				FCB5A5271E966486001B4CA9 /* lesson19.cpp in Sources */,
 				FCA98DDC1E6D584100DFB449 /* Lesson6.cpp in Sources */,
 				69CBE9061E8E1FEB00B1593C /* Lesson15.cpp in Sources */,
 				FCA98DA71E682E0500DFB449 /* lesson2.cpp in Sources */,
