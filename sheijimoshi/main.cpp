@@ -29,6 +29,7 @@
 #include "Lesson20.cpp"
 #include "lesson21.hpp"
 #include "lesson22.hpp"
+#include "Lesson23.hpp"
 
 using namespace std;
 
@@ -54,9 +55,10 @@ void testLesson19();
 void testLesson20();
 void testLesson21();
 void testLesson22();
+void testLesson23();
 
 int main() {
-    testLesson22();
+    testLesson23();
 }
 
 void testLesson1() {
@@ -371,4 +373,18 @@ void testLesson22(){
     }
 }
 
+void testLesson23(){
+    
+    ObjectStructure * o = new  ObjectStructure();
+    o->Attach(new Man());
+    o->Attach(new Woman());
+    
+    Success * v1 = new Success();
+    o->Display(v1);
 
+    Failing * v2 = new Failing();
+    o->Display(v2);
+    
+    
+    
+}
