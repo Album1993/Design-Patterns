@@ -26,6 +26,10 @@
 #include "lesson17.hpp"
 #include "lesson18.hpp"
 #include "lesson19.hpp"
+#include "Lesson20.cpp"
+#include "lesson21.hpp"
+#include "lesson22.hpp"
+
 using namespace std;
 
 void testLesson1();
@@ -47,10 +51,12 @@ void testLesson16();
 void testLesson17();
 void testLesson18();
 void testLesson19();
-
+void testLesson20();
+void testLesson21();
+void testLesson22();
 
 int main() {
-    testLesson19();
+    testLesson22();
 }
 
 void testLesson1() {
@@ -315,3 +321,54 @@ void testLesson19(){
     
     
 }
+
+
+void testLesson20(){
+    UnitedNationsSecurityCouncil * UNSC = new UnitedNationsSecurityCouncil();
+    
+    USA * c1 = new  USA(UNSC);
+    Irap * c2 = new Irap(UNSC);
+    
+    UNSC->colleague1 = c1;
+    UNSC->colleague2 = c2;
+    
+    c1->Declare("i want you die");
+    c2->Declare("i want you go die");
+    
+}
+
+void testLesson21(){
+    WebSiteFactory * f = new WebSiteFactory();
+    
+    
+    Website * fx = f->getWebSiteCategory("production");
+    User_lesson21 * user1 = new User_lesson21("z1");
+    fx->Use(user1);
+
+    Website* fy = f->getWebSiteCategory("production");
+    fy->Use(new User_lesson21("z2"));
+    
+    Website * fz = f->getWebSiteCategory("blog");
+    fz->Use(new User_lesson21("z3"));
+    
+    cout<<"webcount"<<f->GetWebSiteCount()<<endl;
+    
+}
+
+void testLesson22(){
+    PlayContext * context = new PlayContext();
+    context->setPlaytext("O 2 E 0.5 G 0.5 O 3 E 0.5 ");
+    Expression * expression = nullptr;
+    
+    while (context->getPlaytext().length()>0) {
+        string str = context->getPlaytext().substr(0,1);
+        if (str == "O") {
+            expression = new Scale();
+        } else {
+            expression = new Note();
+        }
+        expression->Interpret(context);
+    }
+}
+
+

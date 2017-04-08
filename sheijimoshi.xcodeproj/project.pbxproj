@@ -16,6 +16,9 @@
 		69E28CFE1E95FE9F00CE47A5 /* lesson18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E28CFC1E95FE9F00CE47A5 /* lesson18.cpp */; };
 		FC0443031E78CD1700DAF12C /* Lesson11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC0443011E78CD1700DAF12C /* Lesson11.cpp */; };
 		FC409B1B1E76AA0D00CC4C9E /* Lesson10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC409B191E76AA0D00CC4C9E /* Lesson10.cpp */; };
+		FC4DEA7E1E989220006BEC4D /* lesson21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC4DEA7C1E989220006BEC4D /* lesson21.cpp */; };
+		FC4DEA811E98C56C006BEC4D /* lesson22.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC4DEA7F1E98C56C006BEC4D /* lesson22.cpp */; };
+		FC4DEA841E9919BB006BEC4D /* Lesson23.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC4DEA821E9919BB006BEC4D /* Lesson23.cpp */; };
 		FC6A50511E67BC4E00F7CC0F /* lesson1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC6A504F1E67BC4E00F7CC0F /* lesson1.cpp */; };
 		FC6A50531E67BC6B00F7CC0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC6A50521E67BC6B00F7CC0F /* main.cpp */; };
 		FCA98DA71E682E0500DFB449 /* lesson2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA98DA51E682E0500DFB449 /* lesson2.cpp */; };
@@ -61,6 +64,12 @@
 		FC0443021E78CD1700DAF12C /* Lesson11.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lesson11.hpp; sourceTree = "<group>"; };
 		FC409B191E76AA0D00CC4C9E /* Lesson10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lesson10.cpp; sourceTree = "<group>"; };
 		FC409B1A1E76AA0D00CC4C9E /* Lesson10.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lesson10.hpp; sourceTree = "<group>"; };
+		FC4DEA7C1E989220006BEC4D /* lesson21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lesson21.cpp; sourceTree = "<group>"; };
+		FC4DEA7D1E989220006BEC4D /* lesson21.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lesson21.hpp; sourceTree = "<group>"; };
+		FC4DEA7F1E98C56C006BEC4D /* lesson22.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lesson22.cpp; sourceTree = "<group>"; };
+		FC4DEA801E98C56C006BEC4D /* lesson22.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lesson22.hpp; sourceTree = "<group>"; };
+		FC4DEA821E9919BB006BEC4D /* Lesson23.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lesson23.cpp; sourceTree = "<group>"; };
+		FC4DEA831E9919BB006BEC4D /* Lesson23.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lesson23.hpp; sourceTree = "<group>"; };
 		FC6A50451E67BC1600F7CC0F /* sheijimoshi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sheijimoshi; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6A504F1E67BC4E00F7CC0F /* lesson1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lesson1.cpp; sourceTree = "<group>"; };
 		FC6A50501E67BC4E00F7CC0F /* lesson1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lesson1.hpp; sourceTree = "<group>"; };
@@ -158,6 +167,12 @@
 				FCB5A5261E966486001B4CA9 /* lesson19.hpp */,
 				FCB5A5281E9707D6001B4CA9 /* Lesson20.cpp */,
 				FCB5A5291E9707D6001B4CA9 /* Lesson20.hpp */,
+				FC4DEA7C1E989220006BEC4D /* lesson21.cpp */,
+				FC4DEA7D1E989220006BEC4D /* lesson21.hpp */,
+				FC4DEA7F1E98C56C006BEC4D /* lesson22.cpp */,
+				FC4DEA801E98C56C006BEC4D /* lesson22.hpp */,
+				FC4DEA821E9919BB006BEC4D /* Lesson23.cpp */,
+				FC4DEA831E9919BB006BEC4D /* Lesson23.hpp */,
 			);
 			path = sheijimoshi;
 			sourceTree = "<group>";
@@ -227,6 +242,7 @@
 				69E28CFB1E93C74A00CE47A5 /* lesson17.cpp in Sources */,
 				FC6A50531E67BC6B00F7CC0F /* main.cpp in Sources */,
 				FCB5A5271E966486001B4CA9 /* lesson19.cpp in Sources */,
+				FC4DEA811E98C56C006BEC4D /* lesson22.cpp in Sources */,
 				FCA98DDC1E6D584100DFB449 /* Lesson6.cpp in Sources */,
 				69CBE9061E8E1FEB00B1593C /* Lesson15.cpp in Sources */,
 				FCA98DA71E682E0500DFB449 /* lesson2.cpp in Sources */,
@@ -237,8 +253,10 @@
 				69E28CFE1E95FE9F00CE47A5 /* lesson18.cpp in Sources */,
 				69CBE9091E8E3DB600B1593C /* Lesson16.cpp in Sources */,
 				FCA98DDF1E6EC74A00DFB449 /* lesson7.cpp in Sources */,
+				FC4DEA7E1E989220006BEC4D /* lesson21.cpp in Sources */,
 				FCA98DE51E710EEC00DFB449 /* lesson9.cpp in Sources */,
 				FCB5A52A1E9707D6001B4CA9 /* Lesson20.cpp in Sources */,
+				FC4DEA841E9919BB006BEC4D /* Lesson23.cpp in Sources */,
 				69D788F91E83DF590067F248 /* Lesson13.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
